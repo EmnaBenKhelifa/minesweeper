@@ -7,6 +7,7 @@ from src.minesweeper import Minesweeper
 
 def test_module_exists():
     import src.minesweeper as minesweeper
+
     assert minesweeper
 
 
@@ -62,3 +63,7 @@ def test_win_condition(game):
 
     # Ensure the game recognizes a win condition
     assert game.is_winner() is True
+
+def test_fail():
+    assert False
+

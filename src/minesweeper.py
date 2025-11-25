@@ -3,10 +3,10 @@
 # minesweeper.py
 import random
 
-import pytest
-
 
 class Minesweeper:
+    """This Class builds Minesweeper game"""
+
     def __init__(self, rows: int, cols: int, num_mines: int):
         self.rows = rows
         self.cols = cols
